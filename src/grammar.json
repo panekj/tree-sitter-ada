@@ -11,11 +11,13 @@
     },
     "identifier": {
       "type": "PATTERN",
-      "value": "[a-zA-Z\\u{80}-\\u{10FFFF}][0-9a-zA-Z_\\u{80}-\\u{10FFFF}]*"
+      "value": "[a-zA-Z\\u{80}-\\u{10FFFF}][0-9a-zA-Z_\\u{80}-\\u{10FFFF}]*",
+      "flags": "u"
     },
     "gnatprep_identifier": {
       "type": "PATTERN",
-      "value": "\\$[a-zA-Z\\u{80}-\\u{10FFFF}][0-9a-zA-Z_\\u{80}-\\u{10FFFF}]*"
+      "value": "\\$[a-zA-Z\\u{80}-\\u{10FFFF}][0-9a-zA-Z_\\u{80}-\\u{10FFFF}]*",
+      "flags": "u"
     },
     "comment": {
       "type": "TOKEN",
@@ -15387,4 +15389,3 @@
   ],
   "supertypes": []
 }
-

@@ -1,9 +1,38 @@
-binding.gyp
-bindings/node/binding.cc 
-bindings/node/index.js
-bindings/rust/build.rs
-bindings/rust/lib.rs
+# Rust artifacts
 Cargo.lock
-Cargo.toml
-log.html
+target/
+
+# Node artifacts
+build/
+prebuilds/
 node_modules/
+*.tgz
+
+# Swift artifacts
+.build/
+
+# Go artifacts
+go.sum
+_obj/
+
+# Python artifacts
+.venv/
+dist/
+*.egg-info
+*.whl
+
+# C artifacts
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.pc
+
+# Example dirs
+/examples/*/
+
+# Grammar volatiles
+*.wasm
+*.obj
+*.o
